@@ -13,6 +13,7 @@ public class Main {
                 nums[nums.length-i] = nums[0];
             }
         }
+//        Sort the array again to see the difference
         Arrays.sort(nums);
         return nums[nums.length-1]-nums[0];
     }
